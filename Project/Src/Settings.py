@@ -7,10 +7,11 @@ class Settings():
     processeddir=Path("processed_data")
     logdir= basedir/ "log"
 
-    house_Activity_colums= [
-        "hier all attributes inzetten in de script.py file"
+    colums= [
+
     ]
 
     settings = Settings()
-    logger.add("logfile.log")
+    logger.add(settings.logdir / "logfile.log")
+    logger.info("voorbeeld logbericht")
     
