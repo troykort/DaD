@@ -1,0 +1,15 @@
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\bin\Debug\net8.0\MyNeuralNetworkProject.exe
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\bin\Debug\net8.0\MyNeuralNetworkProject.deps.json
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\bin\Debug\net8.0\MyNeuralNetworkProject.runtimeconfig.json
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\bin\Debug\net8.0\MyNeuralNetworkProject.dll
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\bin\Debug\net8.0\MyNeuralNetworkProject.pdb
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.AssemblyInfoInputs.cache
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.AssemblyInfo.cs
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.csproj.CoreCompileInputs.cache
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.sourcelink.json
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.dll
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\refint\MyNeuralNetworkProject.dll
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.pdb
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\MyNeuralNetworkProject.genruntimeconfig.cache
+C:\DaD\Practicum_10.1_Opdrachten\MyNeuralNetworkProject\obj\Debug\net8.0\ref\MyNeuralNetworkProject.dll
