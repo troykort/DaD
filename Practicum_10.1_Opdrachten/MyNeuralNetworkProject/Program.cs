@@ -31,7 +31,6 @@ public class NeuralNetwork {
         double[] hiddenOutputs = new double[hiddenNodes];
         double[] finalOutputs = new double[outputNodes];
 
-        // Calculate the output of the hidden layer
         for (int i = 0; i < hiddenNodes; i++) {
             double sum = 0;
             for (int j = 0; j < inputNodes; j++) {
@@ -40,7 +39,6 @@ public class NeuralNetwork {
             hiddenOutputs[i] = Sigmoid(sum);
         }
 
-        // Calculate the output of the output layer
         for (int i = 0; i < outputNodes; i++) {
             double sum = 0;
             for (int j = 0; j < hiddenNodes; j++) {
@@ -57,14 +55,12 @@ public class NeuralNetwork {
     }
 
 
-// Train the network with given input-output pairs// Train the network with given input-output pairs
 public void Train(double[,] inputs, double[,] outputs) {
     for (int i = 0; i < inputs.GetLength(0); i++) {
         double[] input = new double[inputNodes];
         double[] target = new double[outputNodes];
-        double[] hiddenOutputs = new double[hiddenNodes]; // declare hiddenOutputs here
+        double[] hiddenOutputs = new double[hiddenNodes]; 
 
-        // Load the input and target for this data point
         for (int j = 0; j < inputNodes; j++) {
             input[j] = inputs[i, j];
         }
@@ -72,19 +68,15 @@ public void Train(double[,] inputs, double[,] outputs) {
             target[j] = outputs[i, j];
         }
 
-        // Feedforward
         double[] output = FeedForward(input);
 
-        // Calculate the error
         double[] outputError = new double[outputNodes];
         for (int j = 0; j < outputNodes; j++) {
             outputError[j] = target[j] - output[j];
         }
 
-        // Print the predicted output
         Console.WriteLine("Predicted output: " + output[0]);
 
-        // Update weights using error
         for (int j = 0; j < hiddenNodes; j++) {
             for (int k = 0; k < outputNodes; k++) {
                 hiddenToOutputWeights[j, k] += outputError[k] * output[k] * (1 - output[k]) * hiddenOutputs[j];
@@ -114,14 +106,11 @@ class Program {
 
         NeuralNetwork nn = new NeuralNetwork(inputNodes, hiddenNodes, outputNodes);
 
-        // Sample input-output data
         double[,] inputs = { { 0, 0, 0, 0 }, { 0, 0, 1, 1 }, { 0, 1, 0, 1 }, { 1, 1, 1, 1 } };
         double[,] outputs = { { 0 }, { 1 }, { 1 }, { 0 } };
 
-        // Train the network
         nn.Train(inputs, outputs);
 
-        // Test the network with new input
         double[] testInput = { 1, 0, 1, 0 };
         double[] result = nn.FeedForward(testInput);
 
